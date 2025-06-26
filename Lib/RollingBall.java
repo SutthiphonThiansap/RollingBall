@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.event.*;
 
 
-<<<<<<< Rolling
 public class RollingBall  extends JPanel implements ActionListener
 {
     int x = 100;
@@ -30,14 +29,5 @@ public class RollingBall  extends JPanel implements ActionListener
         if(x == -80) x = getWidth();
         if(start_angle == 360) start_angle = 0;
         repaint();
-=======
-public class RollingBall  extends JPanel
-{
-    public void paintComponent(Graphics g)
-    {
-        super.paintComponent(g);
-        g.drawOval(100,90,80,80);
-        g.fillArc(100, 90, 80, 80, 0, 180);
->>>>>>> main
     }
 }
